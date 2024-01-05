@@ -1,33 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-04T15:20:13 IST" name="Failed suite [Default suite]" finished-at="2023-11-04T15:20:35 IST" duration-ms="22071">
+  <suite started-at="2024-01-02T12:29:43 IST" name="Suite" finished-at="2024-01-02T12:30:30 IST" duration-ms="46471">
     <groups>
     </groups>
-    <test started-at="2023-11-04T15:20:13 IST" name="Default test(failed)" finished-at="2023-11-04T15:20:35 IST" duration-ms="22071">
-      <class name="removeWishList.DWS_RemoveFromWishList_10_Test">
-        <test-method is-config="true" signature="demo()[pri:0, instance:removeWishList.DWS_RemoveFromWishList_10_Test@6aeb35e6]" started-at="2023-11-04T15:20:13 IST" name="demo" finished-at="2023-11-04T15:20:19 IST" duration-ms="6141" status="PASS">
+    <test started-at="2024-01-02T12:29:43 IST" name="Test" finished-at="2024-01-02T12:30:30 IST" duration-ms="46471">
+      <class name="DisplayErrorMsg.DWS_VerifyErrorMsg_08_Test">
+        <test-method is-config="true" signature="demo()[pri:0, instance:DisplayErrorMsg.DWS_VerifyErrorMsg_08_Test@55a147cc]" started-at="2024-01-02T12:30:14 IST" name="demo" finished-at="2024-01-02T12:30:23 IST" duration-ms="9096" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:removeWishList.DWS_RemoveFromWishList_10_Test@6aeb35e6]" started-at="2023-11-04T15:20:19 IST" name="loginToApplication" finished-at="2023-11-04T15:20:19 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:DisplayErrorMsg.DWS_VerifyErrorMsg_08_Test@55a147cc]" started-at="2024-01-02T12:30:23 IST" name="loginToApplication" finished-at="2024-01-02T12:30:23 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method signature="Remove_Product_Wishlist()[pri:0, instance:removeWishList.DWS_RemoveFromWishList_10_Test@6aeb35e6]" started-at="2023-11-04T15:20:19 IST" name="Remove_Product_Wishlist" finished-at="2023-11-04T15:20:35 IST" duration-ms="15411" status="PASS">
+        <test-method signature="Verify_the_error_message()[pri:0, instance:DisplayErrorMsg.DWS_VerifyErrorMsg_08_Test@55a147cc]" started-at="2024-01-02T12:30:23 IST" name="Verify_the_error_message" finished-at="2024-01-02T12:30:30 IST" duration-ms="6391" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Remove_Product_Wishlist -->
-        <test-method is-config="true" signature="tearDownTheBrowser()[pri:0, instance:removeWishList.DWS_RemoveFromWishList_10_Test@6aeb35e6]" started-at="2023-11-04T15:20:35 IST" name="tearDownTheBrowser" finished-at="2023-11-04T15:20:35 IST" duration-ms="193" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTheBrowser -->
-        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:removeWishList.DWS_RemoveFromWishList_10_Test@6aeb35e6]" started-at="2023-11-04T15:20:35 IST" name="logoutFromApplication" finished-at="2023-11-04T15:20:35 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- Verify_the_error_message -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:DisplayErrorMsg.DWS_VerifyErrorMsg_08_Test@55a147cc]" started-at="2024-01-02T12:30:30 IST" name="logoutFromApplication" finished-at="2024-01-02T12:30:30 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromApplication -->
-      </class> <!-- removeWishList.DWS_RemoveFromWishList_10_Test -->
-    </test> <!-- Default test(failed) -->
-  </suite> <!-- Failed suite [Default suite] -->
+        <test-method is-config="true" signature="tearDownTheBrowser()[pri:0, instance:DisplayErrorMsg.DWS_VerifyErrorMsg_08_Test@55a147cc]" started-at="2024-01-02T12:30:30 IST" name="tearDownTheBrowser" finished-at="2024-01-02T12:30:30 IST" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTheBrowser -->
+      </class> <!-- DisplayErrorMsg.DWS_VerifyErrorMsg_08_Test -->
+      <class name="login.DWS_Login_01_Test">
+        <test-method is-config="true" signature="demo()[pri:0, instance:login.DWS_Login_01_Test@1a942c18]" started-at="2024-01-02T12:29:59 IST" name="demo" finished-at="2024-01-02T12:30:08 IST" duration-ms="9303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:login.DWS_Login_01_Test@1a942c18]" started-at="2024-01-02T12:30:09 IST" name="loginToApplication" finished-at="2024-01-02T12:30:09 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="Login_to_application_with_valid_credentials(java.lang.String,java.lang.String)[pri:0, instance:login.DWS_Login_01_Test@1a942c18]" started-at="2024-01-02T12:30:09 IST" name="Login_to_application_with_valid_credentials" data-provider="data" finished-at="2024-01-02T12:30:10 IST" duration-ms="1115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_to_application_with_valid_credentials -->
+        <test-method signature="Login_to_application_with_valid_credentials(java.lang.String,java.lang.String)[pri:0, instance:login.DWS_Login_01_Test@1a942c18]" started-at="2024-01-02T12:30:10 IST" name="Login_to_application_with_valid_credentials" data-provider="data" finished-at="2024-01-02T12:30:12 IST" duration-ms="1525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ankur@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ankur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_to_application_with_valid_credentials -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:login.DWS_Login_01_Test@1a942c18]" started-at="2024-01-02T12:30:10 IST" name="loginToApplication" finished-at="2024-01-02T12:30:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:login.DWS_Login_01_Test@1a942c18]" started-at="2024-01-02T12:30:10 IST" name="logoutFromApplication" finished-at="2024-01-02T12:30:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:login.DWS_Login_01_Test@1a942c18]" started-at="2024-01-02T12:30:12 IST" name="logoutFromApplication" finished-at="2024-01-02T12:30:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method signature="Login_to_application_with_valid_credentials(java.lang.String,java.lang.String)[pri:0, instance:login.DWS_Login_01_Test@1a942c18]" started-at="2024-01-02T12:30:12 IST" name="Login_to_application_with_valid_credentials" data-provider="data" finished-at="2024-01-02T12:30:13 IST" duration-ms="1388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shahrukhkhan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_to_application_with_valid_credentials -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:login.DWS_Login_01_Test@1a942c18]" started-at="2024-01-02T12:30:12 IST" name="loginToApplication" finished-at="2024-01-02T12:30:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:login.DWS_Login_01_Test@1a942c18]" started-at="2024-01-02T12:30:13 IST" name="loginToApplication" finished-at="2024-01-02T12:30:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:login.DWS_Login_01_Test@1a942c18]" started-at="2024-01-02T12:30:13 IST" name="logoutFromApplication" finished-at="2024-01-02T12:30:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method signature="Login_to_application_with_valid_credentials(java.lang.String,java.lang.String)[pri:0, instance:login.DWS_Login_01_Test@1a942c18]" started-at="2024-01-02T12:30:13 IST" name="Login_to_application_with_valid_credentials" data-provider="data" finished-at="2024-01-02T12:30:14 IST" duration-ms="850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_to_application_with_valid_credentials -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:login.DWS_Login_01_Test@1a942c18]" started-at="2024-01-02T12:30:14 IST" name="logoutFromApplication" finished-at="2024-01-02T12:30:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="tearDownTheBrowser()[pri:0, instance:login.DWS_Login_01_Test@1a942c18]" started-at="2024-01-02T12:30:14 IST" name="tearDownTheBrowser" finished-at="2024-01-02T12:30:14 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTheBrowser -->
+      </class> <!-- login.DWS_Login_01_Test -->
+      <class name="Register.DWS_Register_02_Test">
+        <test-method is-config="true" signature="demo()[pri:0, instance:Register.DWS_Register_02_Test@1ffaf86]" started-at="2024-01-02T12:29:44 IST" name="demo" finished-at="2024-01-02T12:29:56 IST" duration-ms="11841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:Register.DWS_Register_02_Test@1ffaf86]" started-at="2024-01-02T12:29:56 IST" name="loginToApplication" finished-at="2024-01-02T12:29:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="Register_user()[pri:0, instance:Register.DWS_Register_02_Test@1ffaf86]" started-at="2024-01-02T12:29:56 IST" name="Register_user" finished-at="2024-01-02T12:29:59 IST" duration-ms="3044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_user -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:Register.DWS_Register_02_Test@1ffaf86]" started-at="2024-01-02T12:29:59 IST" name="logoutFromApplication" finished-at="2024-01-02T12:29:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="tearDownTheBrowser()[pri:0, instance:Register.DWS_Register_02_Test@1ffaf86]" started-at="2024-01-02T12:29:59 IST" name="tearDownTheBrowser" finished-at="2024-01-02T12:29:59 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTheBrowser -->
+      </class> <!-- Register.DWS_Register_02_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
