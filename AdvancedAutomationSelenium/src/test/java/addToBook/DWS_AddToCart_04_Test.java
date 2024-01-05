@@ -12,5 +12,6 @@ public class DWS_AddToCart_04_Test extends BaseClass
 		book.getClickOnBook().click();
 		book.getProductLink().click();
 		book.getAddToCart().click();
+		System.out.println("hello");
 	}
 }
